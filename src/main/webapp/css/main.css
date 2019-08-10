@@ -1,0 +1,80 @@
+#mainTitle {
+	position: absolute;
+	font-size: 30px;
+	color: rgb(52, 84, 97);
+	top: 1.7em;
+	left: 0em;
+	transform: rotate(-30deg);
+}
+
+#add {
+	background-color: rgb(34, 173, 237);
+	width: 200px;
+	height: 35px;
+	color: white;
+	text-align: center;
+	font-weight: bold;
+	padding-top: 10px;
+	position: absolute;
+	top: 3.5em;
+	left: 53.8em;
+}
+
+#outBox {
+	position: relative;
+	top: 7.7em;
+	left: 8.2em;
+	height: auto;
+}
+
+#TODO {
+	float: left;
+}
+
+#DOING {
+	float: left;
+	margin-left: 1.4em;
+}
+
+#DONE {
+	float: left;
+	margin-left: 1.4em;
+}
+
+.listHeader {
+	background-color: rgb(52, 84, 97);
+	width: 280px;
+	height: 36px;
+	color: white;
+	padding-top: 13px;
+	padding-left: 15px;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.item {
+	position: relative;
+	width: 275px;
+	height: 60px;
+	background-color: rgb(206, 229, 239);
+	margin: 10px 0px;
+	padding: 10px;
+}
+
+.item-header {
+	margin: 8px;
+	font-size: 17px;
+	font-weight: bold;
+}
+
+.item-content {
+	font-size: 13px;
+}
+
+.change {
+	position: absolute;
+	right: 5px;
+	bottom: 10px;
+	width: 27px;
+	height: 23px;
+}
